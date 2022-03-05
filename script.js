@@ -7,9 +7,10 @@ function registrar(){ //chama a função no button
     let labelBatidaRegistrada = document.getElementById('batidaRegistrada')
     const data = new Date()
     let horaTexto =   data.getHours() + ":" + data.getMinutes() ;
-    labelBatidaRegistrada.innerText = (`Batida registrada com sucesso às ${horaTexto}`)
+    labelBatidaRegistrada.innerText = (`Batida registrada às ${horaTexto}`)
     // aqui vai ficar a chamada de função que vai salvar a batida
   }
+  
 
 let meusDados = [
     {

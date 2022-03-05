@@ -1,6 +1,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    background-color: #E5E2D9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 75px;
+    color: #3F3D56;
 }
 h2{
     color: rgba(95, 77, 77, 0.39);
@@ -20,7 +27,7 @@ table {
     
   }
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #3F3D56;
     text-align: left;
     padding: 8px;
   }
@@ -33,17 +40,23 @@ ul li {
 
 
 .historico{
-    background-color: #F1FAEE;
+    background-color: #DDBEA9;
     width: 500px; 
-    margin-left: 30%;
 }
 
 button{
-    background-color: #41b447;
+    background-color: #87986A;
     color: #F1FAEE;
-    border: 2px solid #41b447;
+    border: 2px solid #87986A;
     font-size:20px;
     border-radius: 20px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 95%;
+    text-align: center;
 }
