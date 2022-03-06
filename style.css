@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-color: #E5E2D9;
+    background-color: #F0EFEB;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,7 +10,7 @@ h1{
     color: #3F3D56;
 }
 h2{
-    color: rgba(95, 77, 77, 0.39);
+    color: #F72585;
     display: flex;
     align-content: flex-start;
 }
@@ -19,19 +19,19 @@ h2{
     flex-direction: row;
     justify-content: space-around;
 }
-
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    
-  }
-  td, th {
-    border: 1px solid #3F3D56;
-    text-align: left;
-    padding: 8px;
-  }
+}
 
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(78, 69, 69);
+}
+th{
+    color: #F72585;
+}
 ul li {
     list-style: none;
     display: inline;
@@ -40,7 +40,7 @@ ul li {
 
 
 .historico{
-    background-color: #DDBEA9;
+    background-color: #F0EFEB;
     width: 500px; 
 }
 
@@ -54,9 +54,15 @@ button{
     font-family: 'Montserrat', sans-serif;
 }
 
+button:hover{
+    background-color: #F72585;
+    border: 2px solid #F72585;
+}
+
+
 footer{
     bottom: 0;
     position: fixed;
-    width: 95%;
+    width: 100%;
     text-align: center;
 }
