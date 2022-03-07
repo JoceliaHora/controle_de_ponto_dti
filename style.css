@@ -4,20 +4,23 @@ body{
     background-color: #F0EFEB;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 h1{
-    font-size: 75px;
+    font-size: 50px;
+    margin-bottom: 100px;
     color: #3F3D56;
 }
 h2{
-    color: #F72585;
+    color: #EB5E28;
     display: flex;
     align-content: flex-start;
 }
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
 }
 table {
     border-collapse: collapse;
@@ -30,12 +33,12 @@ th, td {
     border-bottom: 1px solid rgb(78, 69, 69);
 }
 th{
-    color: #F72585;
+    color: #EB5E28;
 }
 ul li {
     list-style: none;
     display: inline;
-    margin: 10%;
+    margin: 1%;
 }
 
 
@@ -55,14 +58,24 @@ button{
 }
 
 button:hover{
-    background-color: #F72585;
-    border: 2px solid #F72585;
+    background-color: #EB5E28;
+    border: 2px solid #EB5E28;
 }
 
 
 footer{
+    color: #463F3A;
     bottom: 0;
     position: fixed;
     width: 100%;
     text-align: center;
 }
+
+p{
+    font-weight: bold;
+}
+
+.icon{
+    max-width: 50px;
+}
+
