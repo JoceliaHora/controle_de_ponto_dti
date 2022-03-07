@@ -16,6 +16,8 @@ A marcação de ponto é realizada no script do front-end, para armazenamento da
 
 No layout foram utilizadas as cores laranja que segundo a psicologia das cores é um tom que transmite alegria, o verde que transmite tranquilidade e também confiança para o usuário, e predominantemente o cinza que transmite confiabilidade e equilibrio. 
 
+![tela](https://raw.githubusercontent.com/JoceliaHora/controle_de_ponto_dti/master/img/tela.jpeg)
+
 ### Modo de usar :arrow_forward:
 
 Acesse o projeto através do gitpage: https://joceliahora.github.io/controle_de_ponto_dti/
